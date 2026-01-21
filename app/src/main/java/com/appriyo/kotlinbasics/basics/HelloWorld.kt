@@ -1,11 +1,16 @@
 package com.appriyo.kotlinbasics.basics
 
+import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 
 @Composable
 fun HelloWorld(){
-    Text("Hello World.")
+    Column {
+        Text("Hello World.")
+        Variables()
+        StringTemplates()
+    }
 }
 
 @Composable

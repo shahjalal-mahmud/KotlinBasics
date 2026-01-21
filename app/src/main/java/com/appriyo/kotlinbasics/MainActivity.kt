@@ -6,9 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.appriyo.kotlinbasics.basics.BasicTypes
 import com.appriyo.kotlinbasics.basics.HelloWorld
-import com.appriyo.kotlinbasics.basics.StringTemplates
-import com.appriyo.kotlinbasics.basics.Variables
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,8 +22,7 @@ class MainActivity : ComponentActivity() {
 fun ShowBasic(){
     Column {
         HelloWorld()
-        Variables()
-        StringTemplates()
+        BasicTypes()
     }
 }
 
