@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.appriyo.kotlinbasics.basics.BasicTypes
+import com.appriyo.kotlinbasics.basics.Collections
 import com.appriyo.kotlinbasics.basics.HelloWorld
 
 class MainActivity : ComponentActivity() {
@@ -23,6 +24,7 @@ fun ShowBasic(){
     Column {
         HelloWorld()
         BasicTypes()
+        Collections()
     }
 }
 
